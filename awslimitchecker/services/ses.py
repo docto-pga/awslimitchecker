@@ -105,7 +105,7 @@ class _SesService(_AwsService):
         limits['Max send per second'] = AwsLimit(
             'Max sending per second',
             self,
-            4269420,
+            1,
             self.warning_threshold,
             self.critical_threshold,
             limit_type='AWS::SES::Email',)
